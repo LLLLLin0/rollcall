@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/lesson"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="课程："/>
+
+        <TextView
+            android:id="@+id/classes_tv"
+            android:layout_toRightOf="@id/lesson"
+            android:layout_alignTop="@id/lesson"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Math"/>
+
+        <TextView
+            android:id="@+id/student_num"
+            android:layout_toRightOf="@id/classes_tv"
+            android:layout_alignTop="@+id/classes_tv"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人数："/>
+
+        <TextView
+            android:id="@+id/student_num_tv"
+            android:layout_toRightOf="@id/student_num"
+            android:layout_alignTop="@id/student_num"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_below="@id/lesson"
+            android:layout_alignLeft="@id/lesson"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间："/>
+
+        <TextView
+            android:id="@+id/time_tv"
+            android:layout_toRightOf="@id/time"
+            android:layout_alignTop="@id/time"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周五14：00 - 15：40"/>
+
+        <TextView
+            android:id="@+id/classroom"
+            android:layout_below="@id/time"
+            android:layout_alignLeft="@id/lesson"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="教室："/>
+
+        <TextView
+            android:id="@+id/classroom_tv"
+            android:layout_toRightOf="@id/classroom"
+            android:layout_alignTop="@id/classroom"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B318"/>
+
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点名  -->"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grey"/>
+</LinearLayout>

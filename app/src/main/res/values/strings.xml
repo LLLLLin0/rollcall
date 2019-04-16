@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">RollCall</string>
+    <string name="submit">提交</string>
+    <string name="lesson">课程</string>
+    <string name="create_lesson">创建课程</string>
+    <string name="lesson_name">课程名</string>
+    <string name="lesson_hint">请输入课程名</string>
+    <string name="classtime">授课时间</string>
+    <string name="classroom">授课教室</string>
+    <string name="classtime_hint">请输入授课时间</string>
+    <string name="classroom_hint">请选择授课教室</string>
+    <string name="telphone">手机号</string>
+    <string name="telphone_hint">请输入手机号</string>
+    <string name="sex">性别</string>
+    <string name="select_hint">请选择</string>
+    <string name="classes">班级</string>
+    <string name="create_student">登记学生</string>
+    <string name="create_student_other">其他添加方法</string>
+    <string name="select_profile_tv">选择头像照片</string>
+    <string name="take_photo">拍照</string>
+    <string name="from_phone">从手机照片中选取</string>
+    <string name="cancel">取消</string>
+    <string name="success">成功</string>
+    <string name="add_student">添加学生</string>
+    <string name="select_all">全选</string>
+    <string name="statics">统计</string>
+    <string name="roll_call_num">点名次数</string>
+</resources>

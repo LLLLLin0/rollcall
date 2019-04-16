@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black">#000000</color>
+
+    <color name="grey_bg">#1A808080</color>
+
+    <color name="blue_bg">#1E90FF</color>
+
+    <color name="white">#FFFFFF</color><!--白色 -->
+
+    <color name="ivory">#FFFFF0</color><!--象牙色 -->
+
+    <color name="lightyellow">#FFFFE0</color><!--亮黄色 -->
+
+    <color name="yellow">#FFFF00</color><!--黄色 -->
+
+    <color name="linen">#FAF0E6</color><!--亚麻色 -->
+
+    <color name="salmon">#FA8072</color><!--鲜肉色 -->
+
+    <color name="ghostwhite">#F8F8FF</color><!--幽灵白 -->
+
+    <color name="mintcream">#F5FFFA</color><!--薄荷色 -->
+
+    <color name="whitesmoke">#F5F5F5</color><!--烟白色 -->
+
+    <color name="beige">#F5F5DC</color><!--米色 -->
+
+    <color name="wheat">#F5DEB3</color><!--浅黄色 -->
+
+    <color name="lightgrey">#D3D3D3</color><!--亮灰色 -->
+
+    <color name="darkgrey">#A9A9A9</color><!--暗灰色 -->
+
+    <color name="grey">#808080</color><!--灰色 -->
+
+    <color name="lightslategrey">#778899</color><!--亮蓝灰 -->
+
+    <color name="slategray">#708090</color><!--灰石色 -->
+
+    <color name="brown">#A52A2A</color><!--褐色 -->
+
+    <color name="silver">#C0C0C0</color><!--银色 -->
+    
+    <color name="darkorange">#FF8C00</color><!--深橙色-->
+
+</resources>

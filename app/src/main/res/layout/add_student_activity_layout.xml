@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/grey_bg"
+              android:orientation="vertical">
+
+    <include layout="@layout/title_layout"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:drawableRight="@drawable/item_more_image"
+        android:paddingRight="10dp"
+        android:text="@string/create_student"
+        android:textColor="@color/black"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grey"/>
+
+    <TextView
+        android:id="@+id/register_other"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:drawableRight="@drawable/item_more_image"
+        android:paddingRight="10dp"
+        android:text="@string/create_student_other"
+        android:textColor="@color/black"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

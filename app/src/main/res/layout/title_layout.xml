@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="#1A808080">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_gravity="center_vertical|left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:src="@drawable/back_image"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:textColor="#000000"
+        android:textSize="15sp"/>
+
+    <ImageView
+        android:id="@+id/more"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_vertical|right"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/more_image"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/submit"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_vertical|right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textColor="#1E90FF"
+        android:visibility="gone"/>
+
+    <View
+        android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:background="@color/grey"/>
+
+</FrameLayout>
